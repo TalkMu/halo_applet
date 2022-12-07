@@ -1,0 +1,28 @@
+.swiper-body {
+  height: 200PX;
+  border-radius: 30px !important;
+  overflow: hidden;
+  .slide-image{
+    height: 180PX;
+    width: 100%;
+    border-radius: 30px !important;
+    overflow: hidden;
+  }
+}
+// 指示点样式
+.spot-pagination {
+  margin-top: 10PX;
+  display: flex;
+  justify-content: center;
+  .spot-pagination-bullet{
+    margin-right: 5PX;
+    border-radius: 20%;
+    height: 6PX;
+    width: 30PX;
+    background: #ccc
+  }
+  // 当前指示点样式
+  .spot-pagination-bullet-active {
+    background: orange;
+  }
+}

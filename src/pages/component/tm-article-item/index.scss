@@ -1,0 +1,45 @@
+.tm-article-item-container{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px;
+  .title{
+    color: #2c2c2c;
+    font-size: 28px;
+  }
+  .summary{
+    margin-top: 20px;
+    color: #8a8a8a;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // 控制多行的行数
+    -webkit-box-orient: vertical;
+  }
+  .icon-group{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #b8b8b8;
+    font-size: 22px;
+    .division{
+      margin: 0px 10px;
+    }
+    text{
+      margin-left: 5px;
+    }
+    .icon{
+      color: #b8b8b8;
+    }
+  }
+  .item-division{
+    margin-top: 30px;
+    //border: 0;
+    //padding: 3px;
+    //background: repeating-linear-gradient(135deg, #a2a9b6 0px, #a2a9b6 1px, transparent 1px, transparent 6px);
+
+    border: 0;
+    border-top: 2px dashed #a2a9b6;
+  }
+}
